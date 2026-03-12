@@ -42,12 +42,12 @@ export default function Hero() {
             </div>
             
             <h1 className={`${spaceGrotesk.className} md:text-8xl text-4xl lg:text-7xl font-bold text-center text-white relative z-20 tracking-tighter`}>
-                Free Resume Maker
+                Reinhard's Resume Maker
             </h1>
 
             <div className={`${spaceGrotesk.className} text-center text-slate-500 text-xl mt-4 relative z-20`}>
                 <Typewriter
-                    words={['ATS Friendly', 'Smart Suggestions', 'Professional & Perfect']}
+                    words={['ATS Friendly', 'Built for Kenya & Beyond', 'Land Your Dream Job', 'Professional & Perfect']}
                     loop={0}
                     cursor
                     cursorStyle='|'
@@ -85,6 +85,19 @@ export default function Hero() {
             >
                 Create Resume
             </Link>
+
+            {/* Footer branding */}
+            <div className="absolute bottom-4 z-50 text-slate-600 text-sm">
+                Built with ❤️ by{" "}
+                <a
+                    href="https://github.com/Reinny-M"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-slate-400 hover:text-white transition-colors"
+                >
+                    Reinhard M. Babere
+                </a>
+            </div>
         </div>
     );
 }
